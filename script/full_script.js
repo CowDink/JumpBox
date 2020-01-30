@@ -123,9 +123,9 @@ function trigger(){
 			if(!gamePlayed){
 				gamePlayed = true;
 			}
-   		 //if(character.notJump()){
+   		 	if(character.notJump()){
         		character.jump();
-  		  //}
+  		  	}
 		}
 		
 		if(mouseX < 70 || mouseX > 280){
